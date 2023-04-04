@@ -1,0 +1,6 @@
+This is a non-working example implementation of a macOS Notification Service Extension
+
+It's almost the example reference code that Xcode generates automatically for AppDelegate and NotificationService, without the generated comments, appended with additional small code parts for for remote push notification registration and authorization.
+
+IMPORTANT: This example is NOT working because of this macOS log console error:
+"Extension will be killed due to sluggish startup"
