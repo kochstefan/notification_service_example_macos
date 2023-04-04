@@ -54,6 +54,7 @@
 		0BAD9B8329DB3B6D00BDEEC3 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
 		0BAD9B8429DB3B6D00BDEEC3 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
 		0BAD9B8629DB3B6D00BDEEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BAD9B8E29DB3C7100BDEEC3 /* NotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +111,7 @@
 		0BAD9B8229DB3B6C00BDEEC3 /* NotificationService */ = {
 			isa = PBXGroup;
 			children = (
+				0BAD9B8E29DB3C7100BDEEC3 /* NotificationService.entitlements */,
 				0BAD9B8329DB3B6D00BDEEC3 /* NotificationService.h */,
 				0BAD9B8429DB3B6D00BDEEC3 /* NotificationService.m */,
 				0BAD9B8629DB3B6D00BDEEC3 /* Info.plist */,
@@ -412,6 +414,7 @@
 		0BAD9B8B29DB3B6D00BDEEC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -434,6 +437,7 @@
 		0BAD9B8C29DB3B6D00BDEEC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
