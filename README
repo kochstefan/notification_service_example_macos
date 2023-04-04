@@ -4,3 +4,6 @@ It's almost the example reference code that Xcode generates automatically for Ap
 
 IMPORTANT: This example is NOT working because of this macOS log console error:
 "Extension will be killed due to sluggish startup"
+
+This stackoverflow question is about this project's issue:
+https://stackoverflow.com/questions/75932467/example-reference-style-implementation-of-macos-notification-service-extension-i
